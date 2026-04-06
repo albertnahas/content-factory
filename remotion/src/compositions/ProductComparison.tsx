@@ -441,7 +441,6 @@ export const ProductComparison: React.FC<ProductComparisonProps> = ({
               <OffthreadVideo
                 src={resolvedSrc(item.videoSrc)}
                 muted
-                loop
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
             </Sequence>

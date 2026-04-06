@@ -15,3 +15,4 @@ logs/
 *.jpg
 !config/content-factory.example.yaml
 !assets/
+package-lock.json

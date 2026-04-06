@@ -1,11 +1,8 @@
 /**
  * ProductDecoded — generic product disassembly composition.
  *
- * Originally "Dish Decoded" from LeanDine. Renamed and genericized:
- * - dish → product
- * - calories → metric value
- * - food-specific language removed
- * All data comes from props, no hardcoded brand identity.
+ * Product disassembly/assembly composition with component labels and data overlay.
+ * All data comes from props — no hardcoded branding.
  */
 
 import React, { useMemo } from 'react';

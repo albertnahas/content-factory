@@ -12,7 +12,7 @@
  *
  * const audio = await generateElevenLabsTTS({
  *   text: 'Your ad script',
- *   voice_id: 'SOYHLrjzK2X1ezoPC6cr',
+ *   voice_id: 'your-voice-id',
  *   stability: 0.25,
  *   style: 1.0,
  * });

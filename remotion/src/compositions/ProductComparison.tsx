@@ -1,10 +1,8 @@
 /**
  * ProductComparison — generic whip-pan product comparison composition.
  *
- * Originally "BrandCalorieSpin" from LeanDine. Renamed and genericized:
- * - brand/calorie → product/metric
- * - Hardcoded color and logo removed
- * All identity comes from props.
+ * Whip-pan orbit comparison between products with animated metric reveals.
+ * All identity comes from props — no hardcoded branding.
  */
 
 import React, { useMemo } from 'react';

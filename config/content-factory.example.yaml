@@ -51,4 +51,4 @@ cost:
   max_per_session: 5.00
 
 # Path to env file with API keys (optional, falls back to env vars)
-secrets_file: "~/master.env"
+# secrets_file: "~/.env.keys"

@@ -1,0 +1,17 @@
+node_modules/
+dist/
+output/
+*.local.md
+.env
+.env.local
+.url-cache.json
+ideas-bank.json
+poster-queue.json
+logs/
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+!config/content-factory.example.yaml
+!assets/

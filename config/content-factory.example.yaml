@@ -1,0 +1,54 @@
+# Content Factory Configuration
+# Copy this file to your project root as content-factory.yaml
+
+brand:
+  name: "Your Brand"
+  tagline: "Your tagline here"
+  colors:
+    primary: "#3B82F6"
+    background: "#FFFFFF"
+    text: "#1F2937"
+  font: "Inter"
+  logo_path: "./assets/logo.png"
+  cta_default: "Learn more"
+
+content:
+  # Define your content categories (used by Ideas Bank)
+  categories:
+    - slug: "tips-and-tricks"
+      label: "Tips & Tricks"
+      engagement: "authority"
+    - slug: "myth-busters"
+      label: "Myth Busters"
+      engagement: "shock"
+    - slug: "product-spotlights"
+      label: "Product Spotlights"
+      engagement: "aspiration"
+    - slug: "behind-the-scenes"
+      label: "Behind the Scenes"
+      engagement: "authenticity"
+
+  default_aspect_ratio: "9:16"
+  default_resolution: "480p"
+
+  tts:
+    provider: "minimax"
+    voice_pool: ["Friendly_Person", "Casual_Guy"]
+    speed: 1.05
+
+  # Premium TTS for ads (optional)
+  tts_premium:
+    provider: "elevenlabs"
+    voice_id: "your-voice-id"
+    model: "eleven_turbo_v2_5"
+
+output:
+  base_dir: "./output"
+  remotion_public: "./remotion/public"
+
+cost:
+  warn_threshold: 1.00
+  max_per_session: 5.00
+
+# Path to env file with API keys (optional, falls back to env vars)
+secrets_file: "~/master.env"

@@ -1,0 +1,76 @@
+{
+  "name": "@content-factory/core",
+  "version": "0.1.0",
+  "description": "AI-powered content generation toolkit — videos, ads, images, carousels, and social media content at scale",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./services": {
+      "import": "./dist/services/index.js",
+      "types": "./dist/services/index.d.ts"
+    },
+    "./services/*": {
+      "import": "./dist/services/*.js",
+      "types": "./dist/services/*.d.ts"
+    },
+    "./pipelines": {
+      "import": "./dist/pipelines/index.js",
+      "types": "./dist/pipelines/index.d.ts"
+    },
+    "./pipelines/*": {
+      "import": "./dist/pipelines/*.js",
+      "types": "./dist/pipelines/*.d.ts"
+    },
+    "./ideas-bank": {
+      "import": "./dist/ideas-bank/index.js",
+      "types": "./dist/ideas-bank/index.d.ts"
+    },
+    "./config": {
+      "import": "./dist/config/schema.js",
+      "types": "./dist/config/schema.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "type-check": "tsc --noEmit",
+    "ideas:list": "node dist/ideas-bank/cli.js list",
+    "ideas:mark": "node dist/ideas-bank/cli.js mark"
+  },
+  "bin": {
+    "content-factory": "./dist/cli.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "openai": "^4.104.0",
+    "replicate": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "marketing",
+    "video-generation",
+    "ai",
+    "content",
+    "social-media",
+    "ads",
+    "reels",
+    "remotion"
+  ],
+  "author": "Albert Nahas <albertonahas92@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albertnahas/content-factory.git"
+  }
+}

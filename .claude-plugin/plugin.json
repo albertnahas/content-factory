@@ -1,0 +1,34 @@
+{
+  "name": "content-factory",
+  "version": "0.1.0",
+  "description": "AI-powered content generation toolkit — videos, ads, images, carousels, and social media content at scale",
+  "author": {
+    "name": "Albert Nahas",
+    "email": "albertonahas92@gmail.com"
+  },
+  "repository": "https://github.com/albertnahas/content-factory",
+  "keywords": ["marketing", "video-generation", "ai", "content", "social-media", "ads", "reels", "remotion"],
+  "commands": [
+    "./commands/generate-reel.md",
+    "./commands/generate-ugc.md",
+    "./commands/generate-ad.md",
+    "./commands/generate-ugc-ad.md",
+    "./commands/generate-talking-character.md",
+    "./commands/generate-product-decoded.md",
+    "./commands/generate-infographic.md",
+    "./commands/generate-carousel.md",
+    "./commands/generate-screenshot-ad.md",
+    "./commands/generate-ideas.md",
+    "./commands/post-to-social.md"
+  ],
+  "skills": [
+    "./skills/gen-ai-media",
+    "./skills/ad-script-writing",
+    "./skills/video-production",
+    "./skills/content-strategy"
+  ],
+  "agents": [
+    "./agents/creative-director.md",
+    "./agents/content-planner.md"
+  ]
+}

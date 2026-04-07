@@ -1,7 +1,6 @@
 ---
 name: content-planner
 description: Content planning agent that manages the Ideas Bank, researches topics, plans content calendars, and tracks what has been generated. Use when the user asks about "what to post next", "content calendar", "ideas for content", or "what haven't we covered".
-model: sonnet
 tools: Read, Write, Bash, Glob, Grep, Edit
 ---
 

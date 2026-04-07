@@ -1,7 +1,6 @@
 ---
 name: creative-director
 description: Autonomous creative director that takes a high-level brief and produces complete content — scripts, visual plans, and generation orchestration. Use when the user provides a vague creative request like "make a reel about X", "create an ad for Y", or "I need content about Z".
-model: sonnet
 tools: Read, Write, Bash, Glob, Grep, Edit, Agent, Skill
 ---
 

@@ -1,6 +1,9 @@
 node_modules/
 dist/
 output/
+_bmad/
+_bmad-output/
+.claude/
 *.local.md
 .env
 .env.local

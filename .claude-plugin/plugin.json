@@ -19,16 +19,20 @@
     "./commands/generate-carousel.md",
     "./commands/generate-screenshot-ad.md",
     "./commands/generate-ideas.md",
-    "./commands/post-to-social.md"
+    "./commands/post-to-social.md",
+    "./commands/repurpose.md"
   ],
   "skills": [
     "./skills/gen-ai-media",
     "./skills/ad-script-writing",
     "./skills/video-production",
-    "./skills/content-strategy"
+    "./skills/content-strategy",
+    "./skills/marketing-plan",
+    "./skills/content-repurposing"
   ],
   "agents": [
     "./agents/creative-director.md",
-    "./agents/content-planner.md"
+    "./agents/content-planner.md",
+    "./agents/trend-scout.md"
   ]
 }
